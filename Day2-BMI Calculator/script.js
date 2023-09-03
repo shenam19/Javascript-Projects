@@ -22,7 +22,6 @@ form.addEventListener("submit", function (event) {
     }
     let resultMessage = "Your BMI:" + bmi.toFixed(2) + "<br>";
     resultMessage += "Category:" + category;
-    console.log(resultMessage);
     result.innerHTML = resultMessage;
   }
 });
