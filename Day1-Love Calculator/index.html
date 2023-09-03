@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1>This is the main texxt</h1>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Love Calculator</h2>
+
+      <div class="love-calculator">
+        <label for="name1">Your Name:</label><br /><br />
+        <input type="text" id="name1" placeholder="Enter your name" />
+
+        <br /><br /><br />
+
+        <label for="name2">Partner's name</label><br /><br />
+        <input type="text" id="name2" placeholder="Enter Partner's name" />
+        <br /><br /><br />
+        <button type="submit" class="btn" onclick="calculateLove()">
+          Calculate
+        </button>
+        <br /><br />
+
+        <div id="result">Result</div>
+      </div>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
